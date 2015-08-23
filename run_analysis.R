@@ -58,4 +58,4 @@ tidy.data <- summarise_each(grouped.data, funs(mean))
 names(tidy.data)[3:68] <- paste("Avg.", names(tidy.data)[3:68], sep="")
 
 # Write out the new tidy data to "tidy.txt".
-write.table(tidy.data, "getdata_project/tidy.txt", row.name=FALSE)
+write.table(tidy.data, "tidy.txt", row.name=FALSE)
