@@ -20,6 +20,7 @@ Several data files from the raw data were used:
 The script accomplishes the goal by combining all the relevant data into a single R data frame, then using it to build a new data frame containing the desired information, and finally writing the resulting data frame out to a text file.
 
 The script operates in the following steps:
+
 1. Load the test and training data ('train/X_train.txt' and 'test/X_test.txt') into 2 separate data frames.
 2. Load the feature names (features.txt), and extract the feature names and associated column numbers that we want to report on. These are all the feature variables for mean and std measurements.
 3. Process the feature names into a form that's easier to work with, by removing dashes and parentheses.
